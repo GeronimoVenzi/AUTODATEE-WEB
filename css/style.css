@@ -1,0 +1,86 @@
+* {
+    margin: 0;
+    padding: 0;
+  }
+  
+  :root {
+    /*colores primarios*/
+    --primary-light-blue: #00a0e3;
+    --primary-blue: #0f5c9f;
+    --primary-violet: #9a00cb;
+    /* colores secundarios */
+    --secondary-purple: #7671ff;
+    --secondary-violet: #5d216f;
+    --secondary-blue: #250fa3;
+    /* tonos grises */
+    --color-grey-dark: #353535;
+    --color-grey-light: #a0a0a0a0;
+    /* tonos pastel */
+    --color-pastel-one: #f4f3ff;
+    --color-pastel-two: #ebf6fb;
+  
+    /* modal whatsapp */
+    --burbuja-ancho: 64px;
+    --burbuja-icono-ancho: 32px;
+    --burbuja-whatsapp: #2d9f24;
+    --burbuja-color: #fff;
+    --burbuja-sombra: rgba(0,0,0, 0.1);
+    --chat-ancho: 360px;
+    --chat-cabecera: #095e54;
+    --chat-cabecera-texto: #fff;
+    --chat-cabecera-activo: #4ad504;
+    --chat-avatar-ancho: 52px;
+    --chat-cuerpo-texto: #111;
+    --chat-cuerpo-texto-operador: rgba(0,0,0,0.4);
+    --chat-cuerpo-hora: rgba(17,17,17,0.5);
+    --chat-cuerpo-fondo: rgba(230, 221, 212, 0.85);
+    --chat-cuerpo-dialogo: #fff;
+    --chat-cuerpo-dialogo-nombre: rgba(0,0,0,0.4);
+    --chat-pie: #fff;
+    --chat-boton: #4fce5d;
+    --chat-boton-texto: #fff
+  }
+  
+  body {
+    font-family: 'Roboto', sans-serif;
+  }
+
+  .header {
+    height: 140px;
+    display: flex;
+    flex-direction: column;
+    position: sticky;
+    left: 0;
+    top: 0;
+    right: 0;
+    padding: 1rem;
+  }
+
+  .header-nav {
+    display: flex;
+    align-self: center;
+  }
+
+  .header-nav-bar {
+    display: flex;
+    flex-direction: row;
+    gap: 25px;
+    padding: 0;
+    list-style: none;
+  }
+
+  .header-nav-bar li {
+    display: inline-block;
+  }
+
+  .header-nav-bar li, a {
+    display: block;
+    color: black;
+    font-size: 0.93rem;
+    padding: 2px;
+    text-decoration: none;
+  }
+
+  .header-nav-bar li, a:hover {
+    color: var(--secondary-purple);
+  }
