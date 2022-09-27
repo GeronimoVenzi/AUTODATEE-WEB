@@ -4,7 +4,7 @@ import Offcanvas from "react-bootstrap/Offcanvas";
 import Container from "react-bootstrap/Container";
 import Nav from "react-bootstrap/Nav";
 import Navbar from "react-bootstrap/Navbar";
-import { ListGroup, NavDropdown } from "react-bootstrap";
+import { NavDropdown } from "react-bootstrap";
 
 import Logo from "/components/assets/Logos/AD-logo.png";
 import styles from "./Navbar.module.css";
