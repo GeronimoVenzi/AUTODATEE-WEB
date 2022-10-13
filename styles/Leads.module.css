@@ -21,7 +21,7 @@
 
 .container__card {
   display: flex;
-  justify-content: center;
+  justify-content: center !important;
   align-items: center;
   gap: 50px;
   padding: 25px;
